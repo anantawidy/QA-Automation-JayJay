@@ -4,10 +4,10 @@ import java.util.Scanner;
 public class PR12 {
     public static void main(String[] args) {
         int angka;
-        Scanner input = new Scanner(System.in);
-    
+        Scanner isi = new Scanner(System.in);
+        
         System.out.println("Masukkan angka kesini: ");
-        angka = input.nextInt();
+        angka = isi.nextInt();
 
         if (angka == 1 || angka == 3 || angka == 5 || angka == 7 || angka == 9) {
             System.out.println("Bilangan Ganjil");          
